@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moje první stránka</title>
-    <link rel="stylesheet" href="style.css"> <!-- Odkaz na CSS (volitelné) -->
+    <title>Tenis Frýdlant nad Ostravicí</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Tenisového klubu Frýdlant nad Ostravicí</h1>
+        <img src="https://imgur.com/a/H5tk16D" alt="Logo Tenis Frýdlant">
+    </header>
 
-    <h1 id="hlavni-nadpis">Vítej na mém webu!</h1>
-    <p>Toto je můj první web vytvořený pomocí HTML.</p>
+    <section id="about">
+        <h2>O nás</h2>
+        <p>Tenisový klub Frýdlant nad Ostravicí je místem, kde se setkávají tenisoví nadšenci všech věkových kategorií. Pořádáme tenisové turnaje, tréninky a nabízíme členství.</p>
+    </section>
 
-    <button onclick="zmenBarvu()">Změnit barvu nadpisu</button>
+    <section id="events">
+        <h2>Kalendář akcí</h2>
+        <ul>
+            <li>Turnaj pro děti - 15. března 2025</li>
+            <li>Trénink pro začátečníky - 20. března 2025</li>
+        </ul>
+    </section>
 
-    <!-- Odkaz na JavaScript soubor (důležité, aby byl na konci těla stránky) -->
-    <script src="script.js"></script>
-
+    <section id="contact">
+        <h2>Kontaktujte nás</h2>
+        <p>Email: info@tenisfrydlant.cz</p>
+        <p>Telefon: +420 605 449 097</p>
+        <p>Adresa: Sportovní 863, 739 11 Frýdlant nad Ostravicí</p>
+    </section>
 </body>
 </html>
-
